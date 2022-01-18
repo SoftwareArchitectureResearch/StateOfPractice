@@ -1,0 +1,19 @@
+%\subsection{Kreisdiagramm f\"ur Threats To Validity (293)}
+%\begin{figure}
+\begin{center}
+\begin{tikzpicture}[scale=2]
+\pgfmathsetcounter{pieh}{0}
+\foreach \p/\q/\t/\c in {19/56/none/blue!20, 28/83/External Validity/blue!30, 22/64/Internal Validity/blue!40, 15/45/Construct Validity/blue!50, 8/24/Confirmability/blue!60, 7/21/Repeatability/blue!70}
+  {
+    \setcounter{pieg}{\value{pieh}}
+    \addtocounter{pieh}{\q}
+    \slice{\thepieg/293*360}
+          {\thepieh/293*360}
+          {\p\%}{\t}{\c}
+  }
+\end{tikzpicture}
+\end{center}
+%\caption{Kreisdiagramm f\"ur Threats To Validity (293)}
+%\label{fig:pie_threatstovalidity}
+%\end{figure}
+

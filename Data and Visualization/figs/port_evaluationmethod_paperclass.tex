@@ -1,0 +1,57 @@
+%\subsection{Portfolio f\"ur Evaluation Method und Paper Class (Gr\"o\ss{}e entspricht der Anzahl)}
+%\begin{figure}
+\begin{center}
+\begin{tikzpicture}[scale=.8]
+\pgfplotsset{cycle list/Dark2}
+\begin{axis}[width=.99\linewidth,
+    enlargelimits=0.15,
+    x tick label style={rotate=45,anchor=east},
+    xtick={0,1,2,3,4,5,6,7,8,9,10,11,12}, xticklabels={Technical Experiment,Case Study,Motivating Example,Interview,Focus Group,Data Science,Controlled Experiment,Questionnaire,Grounded Theory,Argumentation,Benchmark,Field Experiment,Verification},
+    xlabel={Evaluation Method},
+    ytick={0,1,2,3}, yticklabels={Evaluation Research,Proposal of Solution,Validation Research,Philosophical Papers},
+    ylabel={Paper Class},
+    grid=both,
+    scatter,scatter src=y,
+    scatter/classes={0={draw=Dark2-A,fill=Dark2-A}, 1={draw=Dark2-B,fill=Dark2-B}, 2={draw=Dark2-C,fill=Dark2-C}, 3={draw=Dark2-D,fill=Dark2-D}}
+]
+
+\addplot+[mark=*,mark size=13.218,opacity=0.5,text=black] coordinates { (0,0) } node[text=black,font=\bfseries] {28};
+\addplot+[mark=*,mark size=11.243,opacity=0.5,text=black] coordinates { (0,1) } node[text=black,font=\bfseries] {22};
+\addplot+[mark=*,mark size=11.901,opacity=0.5,text=black] coordinates { (0,2) } node[text=black,font=\bfseries] {24};
+\addplot+[mark=*,mark size=11.243,opacity=0.5,text=black] coordinates { (1,0) } node[text=black,font=\bfseries] {22};
+\addplot+[mark=*,mark size=14.535,opacity=0.5,text=black] coordinates { (1,1) } node[text=black,font=\bfseries] {32};
+\addplot+[mark=*,mark size=9.267,opacity=0.5,text=black] coordinates { (1,2) } node[text=black,font=\bfseries] {16};
+\addplot+[mark=*,mark size=5.646,opacity=0.5,text=black] coordinates { (2,0) } node[text=black,font=\bfseries] {5};
+\addplot+[mark=*,mark size=7.292,opacity=0.5,text=black] coordinates { (2,1) } node[text=black,font=\bfseries] {10};
+\addplot+[mark=*,mark size=6.305,opacity=0.5,text=black] coordinates { (2,2) } node[text=black,font=\bfseries] {7};
+\addplot+[mark=*,mark size=6.963,opacity=0.5,text=black] coordinates { (3,0) } node[text=black,font=\bfseries] {9};
+\addplot+[mark=*,mark size=4.988,opacity=0.5,text=black] coordinates { (3,1) } node[text=black,font=\bfseries] {3};
+\addplot+[mark=*,mark size=6.634,opacity=0.5,text=black] coordinates { (4,0) } node[text=black,font=\bfseries] {8};
+\addplot+[mark=*,mark size=5.317,opacity=0.5,text=black] coordinates { (5,0) } node[text=black,font=\bfseries] {4};
+\addplot+[mark=*,mark size=4.658,opacity=0.5,text=black] coordinates { (5,1) } node[text=black,font=\bfseries] {2};
+\addplot+[mark=*,mark size=4.329,opacity=0.5,text=black] coordinates { (5,2) } node[text=black,font=\bfseries] {1};
+\addplot+[mark=*,mark size=4.329,opacity=0.5,text=black] coordinates { (5,3) } node[text=black,font=\bfseries] {1};
+\addplot+[mark=*,mark size=5.646,opacity=0.5,text=black] coordinates { (6,0) } node[text=black,font=\bfseries] {5};
+\addplot+[mark=*,mark size=4.329,opacity=0.5,text=black] coordinates { (6,1) } node[text=black,font=\bfseries] {1};
+\addplot+[mark=*,mark size=4.988,opacity=0.5,text=black] coordinates { (6,2) } node[text=black,font=\bfseries] {3};
+\addplot+[mark=*,mark size=6.634,opacity=0.5,text=black] coordinates { (7,0) } node[text=black,font=\bfseries] {8};
+\addplot+[mark=*,mark size=4.658,opacity=0.5,text=black] coordinates { (7,1) } node[text=black,font=\bfseries] {2};
+\addplot+[mark=*,mark size=4.329,opacity=0.5,text=black] coordinates { (7,2) } node[text=black,font=\bfseries] {1};
+\addplot+[mark=*,mark size=5.317,opacity=0.5,text=black] coordinates { (8,0) } node[text=black,font=\bfseries] {4};
+\addplot+[mark=*,mark size=4.658,opacity=0.5,text=black] coordinates { (8,1) } node[text=black,font=\bfseries] {2};
+\addplot+[mark=*,mark size=4.658,opacity=0.5,text=black] coordinates { (8,2) } node[text=black,font=\bfseries] {2};
+\addplot+[mark=*,mark size=5.317,opacity=0.5,text=black] coordinates { (9,0) } node[text=black,font=\bfseries] {4};
+\addplot+[mark=*,mark size=5.317,opacity=0.5,text=black] coordinates { (9,1) } node[text=black,font=\bfseries] {4};
+\addplot+[mark=*,mark size=4.988,opacity=0.5,text=black] coordinates { (9,2) } node[text=black,font=\bfseries] {3};
+\addplot+[mark=*,mark size=4.988,opacity=0.5,text=black] coordinates { (10,1) } node[text=black,font=\bfseries] {3};
+\addplot+[mark=*,mark size=4.988,opacity=0.5,text=black] coordinates { (10,2) } node[text=black,font=\bfseries] {3};
+\addplot+[mark=*,mark size=4.988,opacity=0.5,text=black] coordinates { (11,0) } node[text=black,font=\bfseries] {3};
+\addplot+[mark=*,mark size=4.329,opacity=0.5,text=black] coordinates { (12,0) } node[text=black,font=\bfseries] {1};
+
+
+\end{axis}
+\end{tikzpicture}
+\end{center}
+%\caption{Portfolio f\"ur Evaluation Method und Paper Class (Gr\"o\ss{}e entspricht der Anzahl)}\label{fig:port_evaluationmethod_paperclass}
+%\end{figure}
+

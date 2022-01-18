@@ -1,0 +1,22 @@
+%\subsection{Histogramm f\"ur Threats To Validity (293)}
+%\begin{figure}
+\begin{center}
+\begin{tikzpicture}[scale=.8]
+\begin{axis}[ ybar, ymajorgrids, enlargelimits=0.15, legend style={at={(0.5,-0.15)}, anchor=north,legend columns=-1},
+    width=.90\linewidth,height=10cm,
+    nodes near coords, %nodes near coords align=below,
+    ylabel={Count},ymin=0,
+    x tick label style={rotate=45,anchor=east},
+    xtick={1,2,3,4,5,6},
+    xticklabels={none,External Validity,Internal Validity,Construct Validity,Confirmability,Repeatability
+}
+    %xlabel={Threats To Validity}    
+    ]
+  \addplot coordinates { (1,56)  (2,83)  (3,64)  (4,45)  (5,24)  (6,21)   };
+\end{axis}
+\end{tikzpicture}
+\end{center}
+%\caption{Histogramm f\"ur Threats To Validity (293)}
+%\label{fig:histo_threatstovalidity}
+%\end{figure}
+

@@ -1,0 +1,41 @@
+%\subsection{Histogram von Threats To Validity je Evaluation Method}
+%\begin{figure}
+\begin{center}
+\begin{tikzpicture}[scale=0.8]
+\
+\begin{axis}[ width=.99\linewidth,height=9cm, ybar stacked,
+    cycle multi list=Spectral,
+    every axis plot/.append style={draw, fill, fill opacity=0.5},
+    enlargelimits=0.15, 
+    bar width=3.5em,
+    nodes near coords, %nodes near coords align=below,
+    nodes near coords style={color=black,font=\small},
+    legend style={at={(0.5,1.35)}, anchor=north,legend columns=4},
+    legend cell align={left},
+    ylabel={Evaluation Method},ymajorgrids, ymin=0, 
+    %x tick label style={rotate=45,anchor=east},
+    xtick={1,2,3,4,5,6}, xticklabels={none,External Validity,Internal Validity,Construct Validity,Confirmability,Repeatability},
+    xlabel={Threats To Validity}    
+   ]
+\addplot coordinates { (1,14)  (2,30)  (3,18)  (4,13)  (5,4)  (6,3)  };
+\addplot coordinates { (1,27)  (2,17)  (3,17)  (4,9)  (5,6)  (6,6)  };
+\addplot coordinates { (1,10)  (2,4)  (3,2)  (4,1)  (5,0)  (6,0)  };
+\addplot coordinates { (1,1)  (2,8)  (3,6)  (4,8)  (5,5)  (6,3)  };
+\addplot coordinates { (1,0)  (2,6)  (3,5)  (4,5)  (5,2)  (6,4)  };
+\addplot coordinates { (1,2)  (2,4)  (3,3)  (4,4)  (5,1)  (6,2)  };
+\addplot coordinates { (1,0)  (2,6)  (3,6)  (4,4)  (5,1)  (6,0)  };
+\addplot coordinates { (1,0)  (2,8)  (3,8)  (4,8)  (5,7)  (6,4)  };
+\addplot coordinates { (1,1)  (2,5)  (3,3)  (4,1)  (5,2)  (6,1)  };
+\addplot coordinates { (1,4)  (2,3)  (3,0)  (4,0)  (5,0)  (6,0)  };
+\addplot coordinates { (1,2)  (2,1)  (3,0)  (4,0)  (5,2)  (6,0)  };
+\addplot coordinates { (1,0)  (2,3)  (3,3)  (4,0)  (5,1)  (6,0)  };
+\addplot coordinates { (1,0)  (2,1)  (3,0)  (4,0)  (5,0)  (6,0)  };
+
+\legend{Technical Experiment,Case Study,Motivating Example,Interview,Focus Group,Data Science,Controlled Experiment,Questionnaire,Grounded Theory,Argumentation,Benchmark,Field Experiment,Verification}
+\end{axis}
+\end{tikzpicture}
+\end{center}
+%\caption{Histogram von Threats To Validity je Evaluation Method}
+%\label{fig:chisto_threatstovalidity_evaluationmethod}
+%\end{figure}
+

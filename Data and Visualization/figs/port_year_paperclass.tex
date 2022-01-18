@@ -1,0 +1,41 @@
+%\subsection{Portfolio f\"ur Year und Paper class (Gr\"o\ss{}e entspricht der Anzahl)}
+%\begin{figure}
+\begin{center}
+\begin{tikzpicture}[scale=.8]
+\pgfplotsset{cycle list/Dark2}
+\begin{axis}[width=.99\linewidth,
+    enlargelimits=0.15,
+    %x tick label style={rotate=45,anchor=east},
+    xtick={0,1,2,3,4}, xticklabels={2017,2018,2019,2020,2021},
+    xlabel={Year},
+    ytick={0,1,2,3}, yticklabels={Evaluation Research,Proposal of Solution,Validation Research,Philosophical Papers},
+    ylabel={Paper class},
+    grid=both,
+    scatter,scatter src=y,
+    scatter/classes={0={draw=Dark2-A,fill=Dark2-A}, 1={draw=Dark2-B,fill=Dark2-B}, 2={draw=Dark2-C,fill=Dark2-C}, 3={draw=Dark2-D,fill=Dark2-D}}
+]
+
+\addplot+[mark=*,mark size=10.091,opacity=0.5,text=black] coordinates { (0,0) } node[text=black,font=\bfseries] {15};
+\addplot+[mark=*,mark size=8.873,opacity=0.5,text=black] coordinates { (0,1) } node[text=black,font=\bfseries] {12};
+\addplot+[mark=*,mark size=6.843,opacity=0.5,text=black] coordinates { (0,2) } node[text=black,font=\bfseries] {7};
+\addplot+[mark=*,mark size=10.497,opacity=0.5,text=black] coordinates { (1,0) } node[text=black,font=\bfseries] {16};
+\addplot+[mark=*,mark size=9.279,opacity=0.5,text=black] coordinates { (1,1) } node[text=black,font=\bfseries] {13};
+\addplot+[mark=*,mark size=9.279,opacity=0.5,text=black] coordinates { (1,2) } node[text=black,font=\bfseries] {13};
+\addplot+[mark=*,mark size=4.406,opacity=0.5,text=black] coordinates { (1,3) } node[text=black,font=\bfseries] {1};
+\addplot+[mark=*,mark size=11.716,opacity=0.5,text=black] coordinates { (2,0) } node[text=black,font=\bfseries] {19};
+\addplot+[mark=*,mark size=10.091,opacity=0.5,text=black] coordinates { (2,1) } node[text=black,font=\bfseries] {15};
+\addplot+[mark=*,mark size=8.061,opacity=0.5,text=black] coordinates { (2,2) } node[text=black,font=\bfseries] {10};
+\addplot+[mark=*,mark size=9.685,opacity=0.5,text=black] coordinates { (3,0) } node[text=black,font=\bfseries] {14};
+\addplot+[mark=*,mark size=11.310,opacity=0.5,text=black] coordinates { (3,1) } node[text=black,font=\bfseries] {18};
+\addplot+[mark=*,mark size=9.279,opacity=0.5,text=black] coordinates { (3,2) } node[text=black,font=\bfseries] {13};
+\addplot+[mark=*,mark size=9.685,opacity=0.5,text=black] coordinates { (4,0) } node[text=black,font=\bfseries] {14};
+\addplot+[mark=*,mark size=8.467,opacity=0.5,text=black] coordinates { (4,1) } node[text=black,font=\bfseries] {11};
+\addplot+[mark=*,mark size=6.437,opacity=0.5,text=black] coordinates { (4,2) } node[text=black,font=\bfseries] {6};
+
+
+\end{axis}
+\end{tikzpicture}
+\end{center}
+%\caption{Portfolio f\"ur Year und Paper class (Gr\"o\ss{}e entspricht der Anzahl)}\label{fig:port_year_paperclass}
+%\end{figure}
+

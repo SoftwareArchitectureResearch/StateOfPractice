@@ -1,0 +1,169 @@
+Year|Paper ID|Research Object|Property
+2017|Bang2017|Architecture Design Method|Effectiveness,Efficiency,Satisfaction,Performance efficiency,Functional Suitability
+2017|Bhat2017|Architecture Analysis Method|Accuracy
+2017|Butting2017|Architecture Description Language,Architecture Analysis Method|Functional Suitability,Performance efficiency,Functional Suitability
+2017|Calinescu2017|Architecture Design Method|Performance efficiency,Robustness
+2017|Camara2017|Architecture Design Method|Performance efficiency,Functional Suitability
+2017|Czepa2017|Architecture Description Language|Usability
+2017|Digkas2017|Technical Debt|Maintainability
+2017|Filho2017|Architecture Analysis Method|Satisfaction,Functional Suitability
+2017|Gesvindr2017|Architecture Analysis Method|Reliability
+2017|Giaimo2017a|Architecture Design Method|Context Coverage
+2017|Gorton2017|Architecture Decision Making|Accuracy,Performance efficiency
+2017|Hammad2017|Architecture Extraction|Performance efficiency,Functional Suitability
+2017|Haselboeck2017|Architecture Decision Making|Satisfaction,Context coverage,Effectiveness
+2017|Hassan2017|Architecture Design Method|Portability,Functional Suitability
+2017|Klock2017|Architecture Optimization Method|Effectiveness,Efficiency
+2017|Kugele2017|Architecture Pattern|Satisfaction,Context coverage
+2017|Maartensson2017|Architectural Aspects|Usability
+2017|Muccini2017|Architecture Description Language|None
+2017|Nguyen2017|Architecture Analysis Method|Functional Suitability
+2017|Paterson2017|Architecture Analysis Method|Accuracy
+2017|Rostami2017|Architecture Analysis Method|Effectiveness,Satisfaction
+2017|Roy2017|Architecture Description|Usability,Security,Maintainability,Performance efficiency,Functional Suitability
+2017|Roy2017|Reference Architecture|Functional Suitability,Performance efficiency,Usability,Security,Portability
+2017|Santos2017|Architecture Pattern|Security
+2017|Sharaf2017|Architecture Design Method|Functional Suitability
+2017|Xu2017|Architecture Decision Making|Functional Suitability
+2017|Yang2017|Architectural Assumptions|Satisfaction
+2017|Zalewski2017|Architecture Decision Making|Effectiveness
+2017|Zheng2017|Architecture Design Method|Usability,Functional Suitability,Performance efficiency
+2018|Alkhabbas2018|Architecture Description|Functional Suitability,Performance efficiency
+2018|Alshuqayran2018|Architecture Extraction|Effectiveness,Functional Suitability
+2018|Antonino2018|Architecture Design Method|Functional Suitability
+2018|Apel2018|Architecture Pattern|Performance efficiency,Usability,Maintainability,Portability
+2018|Arcaini2018|Architecture Description Language|Functional Suitability
+2018|Arcelli2018|Architecture Optimization Method|Functional Suitability,Performance efficiency
+2018|Artac2018|Architecture Description Language|Effectiveness,Satisfaction,Functional Suitability,Performance efficiency,Functional Suitability,Performance efficiency
+2018|Avritzer2018|Architecture Analysis Method|Performance efficiency
+2018|Bhat2018|Architecture Decision Making|Accuracy
+2018|Buchgeher2018|Architecture Extraction|Satisfaction,Performance efficiency
+2018|Chang2018|Reference Architecture|Functional Suitability
+2018|Cortellessa2018|Architecture Analysis Method|Functional Suitability
+2018|Eismann2018|Architecture Optimization Method|Effectiveness,Functional Suitability,Accuracy
+2018|Francesco2018|Architecture Evolution|Effectiveness,Satisfaction
+2018|Garcia2018|Reference Architecture|Compatibility,Effectiveness,Functional Suitability,Compatibility,Reliability,Maintainability
+2018|Gupta2018|Architecture Description|Functional Suitability
+2018|Heijenk2018|Architecture Decision Making|Functional Suitability
+2018|Koziolek2018|Reference Architecture|Performance efficiency
+2018|Kramer2018|Reference Architecture|Performance efficiency,Security,Functional Suitability
+2018|Kugele2018|Architecture Description|Freedom from Risk,Performance efficiency,Maintainability,Functional Suitability
+2018|Kugele2018|Architecture Design Method|Satisfaction,Effectiveness
+2018|Le2018|Architecture Evolution|Maintainability
+2018|Liu2018|Architecture Description|Context coverage
+2018|Martini2018|Architecture Pattern|Maintainability,Satisfaction,Effectiveness
+2018|Oquendo2018|Architecture Description Language|Satisfaction,Functional Suitability
+2018|Power2018|Architecture Decision Making|Satisfaction,Context coverage,Effectiveness
+2018|Schneider2018|Architecture Evolution|Functional Suitability
+2018|Shahbazian2018|Architecture Decision Making|Effectiveness,Functional Suitability,Accuracy
+2018|Soliman2018|Architecture Decision Making|Effectiveness,Accuracy
+2018|Spray2018|Reference Architecture|Functional Suitability,Maintainability
+2018|Szvetits2018|Architecture Decision Making|Effectiveness
+2018|Tenbergen2018|Architectural Aspects|Context coverage
+2018|Tuma2018|Architecture Analysis Method|Effectiveness
+2018|Weyns2018|Architecture Optimization Method|Functional Suitability,Performance efficiency,Portability
+2018|Yasaweerasinghelage2018|Architectural Assumptions|Performance efficiency
+2019|Alam2019|Architecture Decision Making|Accuracy
+2019|Arcelli2019|Architecture Analysis Method,Architecture Design Method|Effectiveness
+2019|Castellanos2019|Architecture Design Method|Satisfaction,Efficiency
+2019|Dajsuren2019|Architecture Analysis Method|Functional Suitability
+2019|Eismann2019|Architecture Analysis Method|Performance efficiency
+2019|Gerking2019|Architecture Analysis Method|Accuracy
+2019|Gonzalez2019|Architectural Aspects|Security
+2019|Jahic2019a|Architecture Analysis Method|Functional Suitability
+2019|Jahic2019|Architecture Design Method|Compatibility
+2019|Maartensson2019|Architecture Decision Making|Accuracy
+2019|Malakuti2019|Architecture Pattern|Functional Suitability
+2019|Malki2019|Architecture Decision Making|Satisfaction
+2019|Mattos2019|Architecture Optimization Method|Effectiveness
+2019|Mayrhofer2019|Reference Architecture|Portability,Portability
+2019|Musil2019|Architecture Analysis Method|Satisfaction,Functional Suitability
+2019|Ntentos2019|Architecture Pattern|Accuracy,Limit of detection
+2019|Nunes2019|Architectural Aspects|Functional Suitability
+2019|Pigazzini2019a|Architecture Analysis Method|Effectiveness
+2019|Pigazzini2019a|Architecture Extraction|Effectiveness
+2019|Power2019|Architecture Decision Making|Functional Suitability
+2019|Rademacher2019|Architecture Design Method|Effectiveness,Functional Suitability,Performance efficiency
+2019|Sanctis2019|Architecture Design Method|Performance efficiency,Functional Suitability
+2019|Seifermann2019|Architecture Analysis Method|Accuracy
+2019|Seifermann2019|Architecture Description Language|None
+2019|Sion2019|Architectural Aspects|Functional Suitability
+2019|Soezer2019|Architecture Extraction|Effectiveness,Performance efficiency,Accuracy
+2019|Telschig2019|Architectural Aspects|Functional Suitability,Performance efficiency
+2019|Tian2019|Architecture Pattern|None
+2019|Tuma2019|Architecture Analysis Method|Functional Suitability
+2019|Ullah2019|Architecture Optimization Method|Performance efficiency,Reliability,Accuracy
+2019|Verdecchia2019|Architecture Design Method|None
+2019|Waegemann2019|Architecture Optimization Method|Functional Suitability
+2019|Weber2019|Reference Architecture|Context coverage,Functional Suitability,Performance efficiency,Security,Reliability,Performance efficiency
+2019|Wohlrab2019a|Architecture Evolution|Maintainability
+2019|Wohlrab2019|Architectural Assumptions|None
+2019|Wohlrab2019|Architecture Evolution|Effectiveness,Satisfaction,Functional Suitability
+2019|Yasaweerasinghelage2019|Architecture Optimization Method|Functional Suitability
+2019|Zhang2019|Architecture Pattern|Satisfaction
+2020|Alkhabbas2020|Architecture Design Method|Functional Suitability
+2020|Almeida2020|Architecture Optimization Method|Satisfaction,Functional Suitability
+2020|Baresi2020|Reference Architecture|Performance efficiency
+2020|Brito2020|Architecture Design Method|Efficiency,Satisfaction,Usability
+2020|Bucaioni2020|Architectural Aspects|Satisfaction,Functional Suitability
+2020|Bucaioni2020|Reference Architecture|Functional Suitability
+2020|Camara2020|Architecture Optimization Method|Effectiveness,Performance efficiency
+2020|Caporuscio2020a|Architecture Design Method|Functional Suitability,Performance efficiency
+2020|Caporuscio2020b|Architecture Evolution|Effectiveness,Performance efficiency
+2020|Cardoso2020|Architecture Optimization Method|Performance efficiency
+2020|Chondamrongkul2020|Architecture Description Language|Performance efficiency,Accuracy
+2020|Dias2020|Architecture Description Language|Performance efficiency
+2020|Giaimo2020|Architecture Description|Functional Suitability
+2020|Giaimo2020|Architecture Design Method|Functional Suitability
+2020|Islam2020|Reference Architecture|Functional Suitability
+2020|Jasser2020|Architecture Analysis Method|Functional Suitability,Accuracy
+2020|Koziolek2020|Architectural Aspects|Performance efficiency,Reliability,Security,Maintainability,Usability
+2020|Kugele2020|Architecture Pattern|Functional Suitability,Accuracy
+2020|Matias2020|Architecture Design Method|Functional Suitability,Satisfaction,Effectiveness
+2020|Mazkatli2020|Architecture Evolution|Efficiency,Accuracy
+2020|Mendonca2020|Architecture Analysis Method|Functional Suitability
+2020|Mendonca2020|Architecture Pattern|Performance efficiency
+2020|Mizutani2020|Reference Architecture|Satisfaction,Efficiency,Context coverage,Functional Suitability
+2020|Moghaddam2020|Architecture Optimization Method|Performance efficiency
+2020|Ntentos2020|Architecture Analysis Method|Accuracy
+2020|Sanctis2020|Reference Architecture|Performance efficiency
+2020|Santos2020|Architecture Design Method|Functional Suitability
+2020|Selmadji2020|Architecture Extraction|Accuracy
+2020|Tran2020|Architecture Design Method|Effectiveness,Functional Suitability
+2020|Verdecchia2020|Technical Debt|Functional Suitability,Maintainability
+2020|Wang2020|Architecture Description Language|Usability,Performance efficiency,Functional Suitability
+2020|Werle2020|Architecture Analysis Method|Accuracy
+2020|Werle2020|Architecture Design Method|Effectiveness
+2020|Zhang2020|Architecture Design Method|Accuracy
+2020|Zhao2020|Architectural Aspects|Performance efficiency
+2020|Zhao2020|Architecture Analysis Method|Efficiency,Accuracy,Recovery
+2021|Bonfanti2021|Architecture Design Method|Functional Suitability
+2021|Bucaioni2021|Architecture Design Method|Functional Suitability
+2021|Cadavid2021|Architecture Decision Making|Satisfaction,Effectiveness,Satisfaction,Freedom from Risk,Effectiveness
+2021|Camara2021|Architecture Optimization Method|Functional Suitability
+2021|Caporuscio2021|Architecture Optimization Method|Performance efficiency,Accuracy
+2021|Garcia2021|Architecture Analysis Method|Effectiveness,Usability
+2021|Garcia2021|Architecture Extraction|None
+2021|Genfer2021|Architectural Aspects|None
+2021|Genfer2021|Architecture Analysis Method|Effectiveness
+2021|Keim2021|Architecture Analysis Method|Effectiveness,Functional Suitability,Accuracy
+2021|Knoche2021|Architecture Evolution|Satisfaction,Efficiency,Context coverage,Performance efficiency
+2021|Koziolek2021|Architecture Optimization Method|Effectiveness,Efficiency
+2021|Le2021|Technical Debt|Accuracy
+2021|Lo2021|Reference Architecture|Functional Suitability
+2021|Monschein2021|Architecture Evolution|Efficiency,Performance efficiency,Accuracy
+2021|Ntentos2021|Architecture Analysis Method|Functional Suitability
+2021|Ntentos2021|Architecture Optimization Method|None
+2021|Olsson2021|Architecture Analysis Method|Accuracy
+2021|Pinciroli2021|Architecture Analysis Method|Functional Suitability
+2021|Pinciroli2021|Architecture Pattern|Performance efficiency
+2021|Raatikainen2021|Architectural Aspects,Architecture Decision Making|Satisfaction,Context coverage,Satisfaction
+2021|Shabelnyk2021|Reference Architecture|Satisfaction,Context coverage,Performance efficiency
+2021|Shokri2021|Architectural Aspects|Performance efficiency,Functional Suitability
+2021|Shokri2021|Architecture Analysis Method|Functional Suitability,Accuracy
+2021|Sinkala2021|Architecture Optimization Method|Functional Suitability,Accuracy
+2021|Sodhi2021|Reference Architecture|None
+2021|Soliman2021a|Architecture Description|Functional Suitability
+2021|Soliman2021|Architecture Design Decisions|Effectiveness
+2021|Woods2021|Architecture Decision Making|Context coverage
+2021|Xu2021|Architecture Decision Making|Satisfaction,Context coverage

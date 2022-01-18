@@ -1,0 +1,32 @@
+%\subsection{Histogram von Year je Tool Support}
+%\begin{figure}
+\begin{center}
+\begin{tikzpicture}[scale=0.8]
+\pgfplotsset{cycle list/Dark2}
+\begin{axis}[ width=.48\linewidth,height=7cm, ybar stacked,
+    every axis plot/.append style={draw, fill, fill opacity=0.5},
+    enlargelimits=0.15, 
+    bar width=1.5em,
+    nodes near coords, %nodes near coords align=below,
+    nodes near coords style={color=black,font=\small},
+    legend style={at={(0.5,1.115)}, anchor=north,legend columns=3},
+    legend cell align={left},
+    ylabel={Tool Support},ymajorgrids,ymin=0,
+    %x tick label style={rotate=45,anchor=east},
+    ymin=0,
+    xtick={1,2,3,4,5}, xticklabels={2017,2018,2019,2020,2021},
+    xlabel={Year},
+    cycle multi list=Dark2    
+   ]
+\addplot coordinates { (1,9)  (2,13)  (3,12)  (4,5)  (5,8)  };
+\addplot coordinates { (1,10)  (2,14)  (3,11)  (4,16)  (5,6)  };
+\addplot coordinates { (1,9)  (2,7)  (3,12)  (4,10)  (5,11)  };
+
+\legend{none,used,available}
+\end{axis}
+\end{tikzpicture}
+\end{center}
+%\caption{Histogram von Year je Tool Support}
+%\label{fig:chisto_year_toolsupport}
+%\end{figure}
+

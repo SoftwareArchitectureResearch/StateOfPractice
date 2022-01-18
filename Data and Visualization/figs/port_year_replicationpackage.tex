@@ -1,0 +1,35 @@
+%\subsection{Portfolio f\"ur Year und Replication Package (Gr\"o\ss{}e entspricht der Anzahl)}
+%\begin{figure}
+\begin{center}
+\begin{tikzpicture}[scale=.8]
+\pgfplotsset{cycle list/Dark2}
+\begin{axis}[width=.99\linewidth,
+    enlargelimits=0.15,
+    %x tick label style={rotate=45,anchor=east},
+    xtick={0,1,2,3,4}, xticklabels={2017,2018,2019,2020,2021},
+    xlabel={Year},
+    ytick={0,1}, yticklabels={none,yes},
+    ylabel={Replication Package},
+    grid=both,
+    scatter,scatter src=y,
+    scatter/classes={0={draw=Dark2-A,fill=Dark2-A}, 1={draw=Dark2-B,fill=Dark2-B}}
+]
+
+\addplot+[mark=*,mark size=17.072,opacity=0.5,text=black] coordinates { (0,0) } node[text=black,font=\bfseries] {25};
+\addplot+[mark=*,mark size=5.569,opacity=0.5,text=black] coordinates { (0,1) } node[text=black,font=\bfseries] {3};
+\addplot+[mark=*,mark size=20.732,opacity=0.5,text=black] coordinates { (1,0) } node[text=black,font=\bfseries] {32};
+\addplot+[mark=*,mark size=5.046,opacity=0.5,text=black] coordinates { (1,1) } node[text=black,font=\bfseries] {2};
+\addplot+[mark=*,mark size=20.732,opacity=0.5,text=black] coordinates { (2,0) } node[text=black,font=\bfseries] {32};
+\addplot+[mark=*,mark size=5.569,opacity=0.5,text=black] coordinates { (2,1) } node[text=black,font=\bfseries] {3};
+\addplot+[mark=*,mark size=18.118,opacity=0.5,text=black] coordinates { (3,0) } node[text=black,font=\bfseries] {27};
+\addplot+[mark=*,mark size=6.092,opacity=0.5,text=black] coordinates { (3,1) } node[text=black,font=\bfseries] {4};
+\addplot+[mark=*,mark size=14.458,opacity=0.5,text=black] coordinates { (4,0) } node[text=black,font=\bfseries] {20};
+\addplot+[mark=*,mark size=6.614,opacity=0.5,text=black] coordinates { (4,1) } node[text=black,font=\bfseries] {5};
+
+
+\end{axis}
+\end{tikzpicture}
+\end{center}
+%\caption{Portfolio f\"ur Year und Replication Package (Gr\"o\ss{}e entspricht der Anzahl)}\label{fig:port_year_replicationpackage}
+%\end{figure}
+

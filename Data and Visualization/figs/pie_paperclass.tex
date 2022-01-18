@@ -1,0 +1,21 @@
+
+%\subsection{Pie chart for Paper class (197)}
+%\begin{figure}
+\begin{center}
+\begin{tikzpicture}[scale=2]
+\pgfmathsetcounter{pieb}{0}
+\foreach \p/\q/\t/\c in {40/78/Evaluation Research/blue!20, 35/69/Proposal of Solution/blue!30, 25/49/Validation Research/blue!40, 1/1/Philosophical Papers/blue!50}
+  {
+    \setcounter{piea}{\value{pieb}}
+    \addtocounter{pieb}{\q}
+    \slice{\thepiea/197*360}
+          {\thepieb/197*360}
+          {\p\%}{\t}{\c}
+  }
+\end{tikzpicture}
+\textbf{Pie chart for Paper class (197)}
+\end{center}
+%\caption{Pie chart for Paper class (197)}
+%\label{fig:pie_paperclass}
+%\end{figure}
+

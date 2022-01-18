@@ -1,0 +1,181 @@
+2021|Bucaioni2021|10.1109/ICSA51549.2021.00020|Architecture Design Method|Interview|None|Functional Suitability|None
+2021|Cadavid2021|10.1109/ICSA51549.2021.00010|Architecture Decision Making|Interview|Satisfaction,Effectiveness|None|None
+2021|Garcia2021|10.1109/ICSA51549.2021.00022|Architecture Analysis Method|Case Study|Effectiveness|Usability|None
+2021|Knoche2021|10.1109/ICSA51549.2021.00014|Architecture Evolution|Questionnaire|Satisfaction,Efficiency|None|None
+2021|Le2021|10.1109/ICSA51549.2021.00017|Technical Debt|Data Science|None|None|Accuracy
+2021|Monschein2021|10.1109/ICSA51549.2021.00009|Architecture Evolution|Technical Experiment|Efficiency|Performance efficiency|Accuracy
+2021|Ntentos2021|10.1109/ICSA51549.2021.00012|Architecture Analysis Method|Technical Experiment|None|Functional Suitability|None
+2021|Pinciroli2021|10.1109/ICSA51549.2021.00018|Architecture Analysis Method|Motivating Example|None|Functional Suitability|None
+2021|Shokri2021|10.1109/ICSA51549.2021.00021|Architectural Aspects|Technical Experiment|None|Performance efficiency,Functional Suitability|None
+2021|Sinkala2021|10.1109/ICSA51549.2021.00024|Architecture Optimization Method|Case Study|None|Functional Suitability|Accuracy
+2021|Sodhi2021|10.1109/ICSA51549.2021.00016|Reference Architecture|None|None|None|None
+2021|Soliman2021|10.1109/ICSA51549.2021.00023|Architecture Design Decisions|Case Study|Effectiveness|None|None
+2021|Xu2021|10.1109/ICSA51549.2021.00013|Architecture Decision Making|Interview|Satisfaction,Context coverage|None|None
+2020|Alkhabbas2020|10.1109/ICSA47634.2020.00022|Architecture Design Method|Technical Experiment|None|Functional Suitability|None
+2020|Baresi2020|10.1109/ICSA47634.2020.00018|Reference Architecture|Technical Experiment|None|Performance efficiency|None
+2020|Brito2020|10.1109/ICSA47634.2020.00016|Architecture Design Method|Controlled Experiment|Efficiency,Satisfaction|Usability|None
+2020|Bucaioni2020|10.1109/ICSA47634.2020.00013|Architectural Aspects|Focus Group|Satisfaction|Functional Suitability|None
+2020|Camara2020|10.1109/ICSA47634.2020.00010|Architecture Optimization Method|Technical Experiment|Effectiveness|Performance efficiency|None
+2020|Cardoso2020|10.1109/ICSA47634.2020.00009|Architecture Optimization Method|Benchmark|None|Performance efficiency|None
+2020|Jasser2020|10.1109/ICSA47634.2020.00012|Architecture Analysis Method|Case Study|None|Functional Suitability|Accuracy
+2020|Kugele2020|10.1109/ICSA47634.2020.00026|Architecture Pattern|Argumentation|None|Functional Suitability|None
+2020|Mazkatli2020|10.1109/ICSA47634.2020.00011|Architecture Evolution|Case Study|Efficiency|None|Accuracy
+2020|Mendonca2020|10.1109/ICSA47634.2020.00019|Architecture Pattern|Technical Experiment|None|Performance efficiency|None
+2020|Mizutani2020|10.1109/ICSA47634.2020.00014|Reference Architecture|Controlled Experiment|Satisfaction,Efficiency,Context coverage|None|None
+2020|Santos2020|10.1109/ICSA47634.2020.00024|Architecture Design Method|Technical Experiment|None|Functional Suitability|None
+2020|Selmadji2020|10.1109/ICSA47634.2020.00023|Architecture Extraction|Technical Experiment|None|None|Accuracy
+2020|Tran2020|10.1109/ICSA47634.2020.00020|Architecture Design Method|Case Study|Effectiveness|Functional Suitability|None
+2020|Wang2020|10.1109/ICSA47634.2020.00025|Architecture Description Language|Controlled Experiment|None|Usability|None
+2020|Zhang2020|10.1109/ICSA47634.2020.00021|Architecture Design Method|Case Study|None|None|Accuracy
+2020|Zhao2020|10.1109/ICSA47634.2020.00027|Architecture Analysis Method|Case Study|Efficiency|None|Accuracy,Recovery
+2019|Alam2019|10.1109/ICSA.2019.00029|Architecture Decision Making|Case Study|None|None|Accuracy
+2019|Arcelli2019|10.1109/ICSA.2019.00017|Architecture Analysis Method,Architecture Design Method|Case Study|Effectiveness|None|None
+2019|Dajsuren2019|10.1109/ICSA.2019.00027|Architecture Analysis Method|Motivating Example|None|Functional Suitability|None
+2019|Eismann2019|10.1109/ICSA.2019.00016|Architecture Analysis Method|Technical Experiment|None|Performance efficiency|None
+2019|Gerking2019|10.1109/ICSA.2019.00015|Architecture Analysis Method|Technical Experiment|None|None|Accuracy
+2019|Gonzalez2019|10.1109/ICSA.2019.00012|Architectural Aspects|Data Science|None|Security|None
+2019|Jahic2019|10.1109/ICSA.2019.00020|Architecture Design Method|Technical Experiment|None|Compatibility|None
+2019|Jahic2019a|10.1109/ICSA.2019.00026|Architecture Analysis Method|Technical Experiment|None|Functional Suitability|None
+2019|Maartensson2019|10.1109/ICSA.2019.00022|Architecture Decision Making|Focus Group|None|None|Accuracy
+2019|Rademacher2019|10.1109/ICSA.2019.00011|Architecture Design Method|Case Study|Effectiveness|Functional Suitability,Performance efficiency|None
+2019|Seifermann2019|10.1109/ICSA.2019.00009|Architecture Description Language|None|None|None|None
+2019|Sion2019|10.1109/ICSA.2019.00010|Architectural Aspects|Motivating Example|None|Functional Suitability|None
+2019|Telschig2019|10.1109/ICSA.2019.00021|Architectural Aspects|Case Study|None|Functional Suitability,Performance efficiency|None
+2019|Tian2019|10.1109/ICSA.2019.00018|Architecture Pattern|Grounded Theory|None|None|None
+2019|Tuma2019|10.1109/ICSA.2019.00028|Architecture Analysis Method|Case Study|None|Functional Suitability|None
+2019|Ullah2019|10.1109/ICSA.2019.00013|Architecture Optimization Method|Technical Experiment|None|Performance efficiency,Reliability|Accuracy
+2019|Verdecchia2019|10.1109/ICSA.2019.00023|Architecture Design Method|None|None|None|None
+2019|Weber2019|10.1109/ICSA.2019.00019|Reference Architecture|Argumentation|Context coverage|Functional Suitability,Performance efficiency,Security,Reliability|None
+2019|Wohlrab2019|10.1109/ICSA.2019.00024|Architecture Evolution|Questionnaire|Effectiveness,Satisfaction|Functional Suitability|None
+2019|Wohlrab2019a|10.1109/ICSA.2019.00025|Architecture Evolution|Interview|None|Maintainability|None
+2019|Zhang2019|10.1109/ICSA.2019.00014|Architecture Pattern|Interview|Satisfaction|None|None
+2018|Alshuqayran2018|10.1109/ICSA.2018.00014|Architecture Extraction|Technical Experiment|Effectiveness|Functional Suitability|None
+2018|Apel2018|10.1109/ICSA.2018.00011|Architecture Pattern|Technical Experiment|None|Performance efficiency,Usability,Maintainability,Portability|None
+2018|Arcelli2018|10.1109/ICSA.2018.00020|Architecture Optimization Method|Technical Experiment|None|Functional Suitability,Performance efficiency|None
+2018|Artac2018|10.1109/ICSA.2018.00025|Architecture Description Language|Case Study|Effectiveness,Satisfaction|Functional Suitability,Performance efficiency|None
+2018|Bhat2018|10.1109/ICSA.2018.00018|Architecture Decision Making|Data Science|None|None|Accuracy
+2018|Cortellessa2018|10.1109/ICSA.2018.00022|Architecture Analysis Method|Motivating Example|None|Functional Suitability|None
+2018|Eismann2018|10.1109/ICSA.2018.00023|Architecture Optimization Method|Technical Experiment|Effectiveness|Functional Suitability|Accuracy
+2018|Francesco2018|10.1109/ICSA.2018.00012|Architecture Evolution|Questionnaire,Interview|Effectiveness,Satisfaction|None|None
+2018|Garcia2018|10.1109/ICSA.2018.00017|Reference Architecture|Interview|None|Compatibility|None
+2018|Gupta2018|10.1109/ICSA.2018.00009|Architecture Description|Case Study|None|Functional Suitability|None
+2018|Koziolek2018|10.1109/ICSA.2018.00029|Reference Architecture|Technical Experiment|None|Performance efficiency|None
+2018|Kramer2018|10.1109/ICSA.2018.00010|Reference Architecture|Case Study|None|Performance efficiency,Security,Functional Suitability|None
+2018|Le2018|10.1109/ICSA.2018.00027|Architecture Evolution|Data Science|None|Maintainability|None
+2018|Liu2018|10.1109/ICSA.2018.00024|Architecture Description|Case Study|Context coverage|None|None
+2018|Shahbazian2018|10.1109/ICSA.2018.00019|Architecture Decision Making|Technical Experiment|Effectiveness|Functional Suitability|Accuracy
+2018|Soliman2018|10.1109/ICSA.2018.00028|Architecture Decision Making|Controlled Experiment|Effectiveness|None|None
+2018|Szvetits2018|10.1109/ICSA.2018.00021|Architecture Decision Making|Data Science|Effectiveness|None|None
+2018|Tenbergen2018|10.1109/ICSA.2018.00030|Architectural Aspects|Case Study|Context coverage|None|None
+2018|Yasaweerasinghelage2018|10.1109/ICSA.2018.00026|Architectural Assumptions|Case Study|None|Performance efficiency|None
+2017|Bang2017|10.1109/ICSA.2017.45|Architecture Design Method|Questionnaire,Controlled Experiment|Effectiveness,Efficiency,Satisfaction|None|None
+2017|Butting2017|10.1109/ICSA.2017.34|Architecture Description Language,Architecture Analysis Method|Technical Experiment|None|Functional Suitability,Performance efficiency|None
+2017|Calinescu2017|10.1109/ICSA.2017.16|Architecture Design Method|Technical Experiment|None|Performance efficiency|Robustness
+2017|Czepa2017|10.1109/ICSA.2017.10|Architecture Description Language|Controlled Experiment|None|Usability|None
+2017|Gesvindr2017|10.1109/ICSA.2017.43|Architecture Analysis Method|Case Study|None|Reliability|None
+2017|Giaimo2017a|10.1109/ICSA.2017.36|Architecture Design Method|Motivating Example|Context Coverage|None|None
+2017|Gorton2017|10.1109/ICSA.2017.27|Architecture Decision Making|Technical Experiment|None|None|Accuracy
+2017|Hammad2017|10.1109/ICSA.2017.18|Architecture Extraction|Technical Experiment|None|Performance efficiency,Functional Suitability|None
+2017|Hassan2017|10.1109/ICSA.2017.32|Architecture Design Method|Motivating Example|None|Portability,Functional Suitability|None
+2017|Klock2017|10.1109/ICSA.2017.38|Architecture Optimization Method|Case Study|Effectiveness,Efficiency|None|None
+2017|Kugele2017|10.1109/ICSA.2017.20|Architecture Pattern|Grounded Theory|Satisfaction,Context coverage|None|None
+2017|Maartensson2017|10.1109/ICSA.2017.11|Architectural Aspects|Interview|None|Usability|None
+2017|Muccini2017|10.1109/ICSA.2017.21|Architecture Description Language|Motivating Example|None|None|None
+2017|Paterson2017|10.1109/ICSA.2017.14|Architecture Analysis Method|Case Study|None|None|Accuracy
+2017|Rostami2017|10.1109/ICSA.2017.17|Architecture Analysis Method|Technical Experiment|Effectiveness,Satisfaction|None|None
+2017|Santos2017|10.1109/ICSA.2017.39|Architecture Pattern|Case Study|None|Security|None
+2017|Xu2017|10.1109/ICSA.2017.33|Architecture Decision Making|Argumentation|None|Functional Suitability|None
+2017|Zheng2017|10.1109/ICSA.2017.13|Architecture Design Method|Technical Experiment|None|Usability,Functional Suitability,Performance efficiency|None
+2019|Castellanos2019|10.1007/978-3-030-29983-5\_13|Architecture Design Method|Questionnaire|Satisfaction,Efficiency|None|None
+2019|Malakuti2019|10.1007/978-3-030-29983-5\_16|Architecture Pattern|Case Study|None|Functional Suitability|None
+2019|Malki2019|10.1007/978-3-030-29983-5\_1|Architecture Decision Making|Grounded Theory|Satisfaction|None|None
+2019|Mattos2019|10.1007/978-3-030-29983-5\_18|Architecture Optimization Method|Field Experiment|Effectiveness|None|None
+2019|Mayrhofer2019|10.1007/978-3-030-29983-5\_10|Reference Architecture|Motivating Example|None|Portability|None
+2019|Musil2019|10.1007/978-3-030-29983-5\_8|Architecture Analysis Method|Case Study|Satisfaction|Functional Suitability|None
+2019|Ntentos2019|10.1007/978-3-030-29983-5\_2|Architecture Pattern|Grounded Theory|None|None|Accuracy,Limit of detection
+2019|Nunes2019|10.1007/978-3-030-29983-5\_3|Architectural Aspects|Case Study|None|Functional Suitability|None
+2019|Pigazzini2019a|10.1007/978-3-030-29983-5\_17|Architecture Extraction|Case Study|Effectiveness|None|None
+2019|Power2019|10.1007/978-3-030-29983-5\_4|Architecture Decision Making|Questionnaire|None|Functional Suitability|None
+2019|Sanctis2019|10.1007/978-3-030-29983-5\_12|Architecture Design Method|Case Study|None|Performance efficiency,Functional Suitability|None
+2019|Soezer2019|10.1007/978-3-030-29983-5\_5|Architecture Extraction|Benchmark|Effectiveness|Performance efficiency|Accuracy
+2019|Waegemann2019|10.1007/978-3-030-29983-5\_9|Architecture Optimization Method|Case Study|None|Functional Suitability|None
+2019|Yasaweerasinghelage2019|10.1007/978-3-030-29983-5\_11|Architecture Optimization Method|Case Study|None|Functional Suitability|None
+2018|Alkhabbas2018|10.1007/978-3-030-00761-4\_6|Architecture Description|Technical Experiment|None|Functional Suitability,Performance efficiency|None
+2018|Antonino2018|10.1007/978-3-030-00761-4\_8|Architecture Design Method|Motivating Example|None|Functional Suitability|None
+2018|Arcaini2018|10.1007/978-3-030-00761-4\_1|Architecture Description Language|Motivating Example|None|Functional Suitability|None
+2018|Avritzer2018|10.1007/978-3-030-00761-4\_11|Architecture Analysis Method|Case Study|None|Performance efficiency|None
+2018|Buchgeher2018|10.1007/978-3-030-00761-4\_14|Architecture Extraction|Case Study|Satisfaction|Performance efficiency|None
+2018|Chang2018|10.1007/978-3-030-00761-4\_15|Reference Architecture|Technical Experiment|None|Functional Suitability|None
+2018|Heijenk2018|10.1007/978-3-030-00761-4\_17|Architecture Decision Making|Interview|None|Functional Suitability|None
+2018|Martini2018|10.1007/978-3-030-00761-4\_21|Architecture Pattern|Case Study|None|Maintainability|None
+2018|Power2018|10.1007/978-3-030-00761-4\_19|Architecture Decision Making|Focus Group|Satisfaction,Context coverage,Effectiveness|None|None
+2018|Schneider2018|10.1007/978-3-030-00761-4\_18|Architecture Evolution|Case Study|None|Functional Suitability|None
+2018|Spray2018|10.1007/978-3-030-00761-4\_9|Reference Architecture|Case Study|None|Functional Suitability,Maintainability|None
+2018|Tuma2018|10.1007/978-3-030-00761-4\_23|Architecture Analysis Method|Controlled Experiment|Effectiveness|None|None
+2018|Weyns2018|10.1007/978-3-030-00761-4\_4|Architecture Optimization Method|Case Study|None|Functional Suitability,Performance efficiency,Portability|None
+2017|Bhat2017|10.1007/978-3-319-65831-5\_10|Architecture Analysis Method|Case Study|None|None|Accuracy
+2017|Camara2017|10.1007/978-3-319-65831-5\_1|Architecture Design Method|Technical Experiment|None|Performance efficiency,Functional Suitability|None
+2017|Digkas2017|10.1007/978-3-319-65831-5\_4|Technical Debt|Data Science|None|Maintainability|None
+2017|Filho2017|10.1007/978-3-319-65831-5\_5|Architecture Analysis Method|Case Study|Satisfaction|Functional Suitability|None
+2017|Haselboeck2017|10.1007/978-3-319-65831-5\_11|Architecture Decision Making|Field Experiment|Satisfaction,Context coverage,Effectiveness|None|None
+2017|Nguyen2017|10.1007/978-3-319-65831-5\_2|Architecture Analysis Method|Motivating Example|None|Functional Suitability|None
+2017|Sharaf2017|10.1007/978-3-319-65831-5\_7|Architecture Design Method|Case Study|None|Functional Suitability|None
+2017|Yang2017|10.1007/978-3-319-65831-5\_14|Architectural Assumptions|Questionnaire,Interview,Focus Group|Satisfaction|None|None
+2017|Zalewski2017|10.1007/978-3-319-65831-5\_9|Architecture Decision Making|Focus Group|Effectiveness|None|None
+2020|Ntentos2020|10.1007/978-3-030-58923-3\_1|Architecture Analysis Method|Grounded Theory|None|None|Accuracy
+2020|Chondamrongkul2020|10.1007/978-3-030-58923-3\_2|Architecture Description Language|Benchmark|None|Performance efficiency|Accuracy
+2020|Almeida2020|10.1007/978-3-030-58923-3\_3|Architecture Optimization Method|Case Study|Satisfaction|Functional Suitability|None
+2020|Caporuscio2020a|10.1007/978-3-030-58923-3\_4|Architecture Design Method|Technical Experiment|None|Functional Suitability,Performance efficiency|None
+2020|Giaimo2020|10.1007/978-3-030-58923-3\_5|Architecture Description|Technical Experiment|None|Functional Suitability|None
+2020|Dias2020|10.1007/978-3-030-58923-3\_7|Architecture Description Language|Technical Experiment|None|Performance efficiency|None
+2020|Sanctis2020|10.1007/978-3-030-58923-3\_8|Reference Architecture|Technical Experiment|None|Performance efficiency|None
+2020|Werle2020|10.1007/978-3-030-58923-3\_10|Architecture Design Method|Case Study|Effectiveness|None|None
+2020|Islam2020|10.1007/978-3-030-58923-3\_11|Reference Architecture|Case Study|None|Functional Suitability|None
+2020|Verdecchia2020|10.1007/978-3-030-58923-3\_14|Technical Debt|Grounded Theory|None|Functional Suitability,Maintainability|None
+2020|Caporuscio2020b|10.1007/978-3-030-58923-3\_18|Architecture Evolution|Case Study|Effectiveness|Performance efficiency|None
+2020|Matias2020|10.1007/978-3-030-58923-3\_21|Architecture Design Method|Case Study|None|Functional Suitability|None
+2020|Moghaddam2020|10.1007/978-3-030-58923-3\_22|Architecture Optimization Method|Case Study|None|Performance efficiency|None
+2020|Koziolek2020|10.1007/978-3-030-58923-3\_23|Architectural Aspects|Technical Experiment|None|Performance efficiency,Reliability,Security,Maintainability,Usability|None
+2021|Caporuscio2021|10.1007/978-3-030-86044-8_5|Architecture Optimization Method|Technical Experiment|None|Performance efficiency|Accuracy
+2021|Bonfanti2021|10.1007/978-3-030-86044-8_2|Architecture Design Method|Motivating Example|None|Functional Suitability|None
+2021|Soliman2021a|10.1007/978-3-030-86044-8_8|Architecture Description|Technical Experiment|None|Functional Suitability|None
+2021|Koziolek2021|10.1007/978-3-030-86044-8_1|Architecture Optimization Method|Technical Experiment|Effectiveness,Efficiency|None|None
+2021|Camara2021|10.1007/978-3-030-86044-8_4|Architecture Optimization Method|Case Study|None|Functional Suitability|None
+2021|Lo2021|10.1007/978-3-030-86044-8_6|Reference Architecture|Data Science|None|Functional Suitability|None
+2021|Woods2021|10.1007/978-3-030-86044-8_21|Architecture Decision Making|Questionnaire|Context coverage|None|None
+2021|Genfer2021|10.1007/978-3-030-86044-8_15|Architecture Analysis Method|Case Study|Effectiveness|None|None
+2021|Olsson2021|10.1007/978-3-030-86044-8_16|Architecture Analysis Method|Technical Experiment|None|None|Accuracy
+2021|Raatikainen2021|10.1007/978-3-030-86044-8_14|Architectural Aspects,Architecture Decision Making|Interview|Satisfaction,Context coverage,Satisfaction|None|None
+2021|Keim2021|10.1007/978-3-030-86044-8_7|Architecture Analysis Method|Case Study|Effectiveness|Functional Suitability|Accuracy
+2021|Shabelnyk2021|10.1007/978-3-030-86044-8_10|Reference Architecture|Case Study|Satisfaction,Context coverage|Performance efficiency|None
+2018|Kugele2018|10.1109/ICSA.2018.00016|Architecture Description|Technical Experiment|Freedom from Risk|Performance efficiency,Maintainability,Functional Suitability|None
+2017|Roy2017|10.1109/ICSA.2017.42|Architecture Description|Technical Experiment|None|Usability,Security,Maintainability,Performance efficiency,Functional Suitability|None
+2018|Oquendo2018|10.1007/978-3-030-00761-4\_2|Architecture Description Language|Case Study|Satisfaction|Functional Suitability|None
+2021|Cadavid2021|10.1109/ICSA51549.2021.00010|Architecture Decision Making|Focus Group|Satisfaction,Freedom from Risk,Effectiveness|None|None
+2021|Knoche2021|10.1109/ICSA51549.2021.00014|Architecture Evolution|Technical Experiment|Context coverage|Performance efficiency|None
+2020|Kugele2020|10.1109/ICSA47634.2020.00026|Architecture Pattern|Technical Experiment|None|None|Accuracy
+2020|Mizutani2020|10.1109/ICSA47634.2020.00014|Reference Architecture|Argumentation|None|Functional Suitability|None
+2020|Wang2020|10.1109/ICSA47634.2020.00025|Architecture Description Language|Technical Experiment|None|Performance efficiency,Functional Suitability|None
+2019|Weber2019|10.1109/ICSA.2019.00019|Reference Architecture|Technical Experiment|None|Performance efficiency|None
+2018|Artac2018|10.1109/ICSA.2018.00025|Architecture Description Language|Technical Experiment|None|Functional Suitability,Performance efficiency|None
+2018|Garcia2018|10.1109/ICSA.2018.00017|Reference Architecture|Field Experiment|Effectiveness|Functional Suitability,Compatibility,Reliability,Maintainability|None
+2018|Soliman2018|10.1109/ICSA.2018.00028|Architecture Decision Making|Technical Experiment|None|None|Accuracy
+2017|Bang2017|10.1109/ICSA.2017.45|Architecture Design Method|Technical Experiment|None|Performance efficiency,Functional Suitability|None
+2017|Butting2017|10.1109/ICSA.2017.34|Architecture Description Language,Architecture Analysis Method|Verification|None|Functional Suitability|None
+2017|Gorton2017|10.1109/ICSA.2017.27|Architecture Decision Making|Benchmark|None|Performance efficiency|None
+2019|Mayrhofer2019|10.1007/978-3-030-29983-5\_10|Reference Architecture|Argumentation|None|Portability|None
+2018|Martini2018|10.1007/978-3-030-00761-4\_21|Architecture Pattern|Questionnaire|Satisfaction,Effectiveness|None|None
+2020|Matias2020|10.1007/978-3-030-58923-3\_21|Architecture Design Method|Questionnaire|Satisfaction,Effectiveness|None|None
+2021|Pinciroli2021|10.1109/ICSA51549.2021.00018|Architecture Pattern|Motivating Example|None|Performance efficiency|None
+2021|Shokri2021|10.1109/ICSA51549.2021.00021|Architecture Analysis Method|Technical Experiment|None|Functional Suitability|Accuracy
+2020|Bucaioni2020|10.1109/ICSA47634.2020.00013|Reference Architecture|Focus Group|None|Functional Suitability|None
+2020|Mendonca2020|10.1109/ICSA47634.2020.00019|Architecture Analysis Method|Technical Experiment|None|Functional Suitability|None
+2020|Zhao2020|10.1109/ICSA47634.2020.00027|Architectural Aspects|Case Study|None|Performance efficiency|None
+2019|Seifermann2019|10.1109/ICSA.2019.00009|Architecture Analysis Method|Technical Experiment|None|None|Accuracy
+2019|Pigazzini2019a|10.1007/978-3-030-29983-5\_17|Architecture Analysis Method|Case Study|Effectiveness|None|None
+2019|Power2019|10.1007/978-3-030-29983-5\_4|Architecture Decision Making|Focus Group|None|Functional Suitability|None
+2020|Giaimo2020|10.1007/978-3-030-58923-3\_5|Architecture Design Method|Argumentation|None|Functional Suitability|None
+2020|Werle2020|10.1007/978-3-030-58923-3\_10|Architecture Analysis Method|Case Study|None|None|Accuracy
+2018|Kugele2018|10.1109/ICSA.2018.00016|Architecture Design Method|Motivating Example|Satisfaction,Effectiveness|None|None
+2017|Roy2017|10.1109/ICSA.2017.42|Reference Architecture|Motivating Example|None|Functional Suitability,Performance efficiency|None
+2017|Roy2017|10.1109/ICSA.2017.42|Reference Architecture|Argumentation|None|Usability,Security,Portability|None

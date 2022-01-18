@@ -1,0 +1,19 @@
+%\subsection{Kreisdiagramm f\"ur Evaluation Method (181)}
+%\begin{figure}
+\begin{center}
+\begin{tikzpicture}[scale=2]
+\pgfmathsetcounter{pied}{0}
+\foreach \p/\q/\t/\c in {29/53/Case Study/blue!20, 28/50/Technical Experiment/blue!30, 8/15/Motivating Example/blue!40, 6/11/Interview/blue!50, 5/9/Questionnaire/blue!60, 4/8/Focus Group/blue!70, 4/7/Data Science/blue!80, 4/7/Controlled Experiment/blue!90, 4/7/Argumentation/blue!100, 3/6/Grounded Theory/blue!110, 2/4/Benchmark/blue!120, 2/3/Field Experiment/blue!130, 1/1/Verification/blue!140}
+  {
+    \setcounter{piec}{\value{pied}}
+    \addtocounter{pied}{\q}
+    \slice{\thepiec/181*360}
+          {\thepied/181*360}
+          {\p\%}{\t}{\c}
+  }
+\end{tikzpicture}
+\end{center}
+%\caption{Kreisdiagramm f\"ur Evaluation Method (181)}
+%\label{fig:pie_evaluationmethod}
+%\end{figure}
+

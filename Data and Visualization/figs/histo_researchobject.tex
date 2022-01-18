@@ -1,0 +1,22 @@
+%\subsection{Histogramm f\"ur Research Object (171)}
+%\begin{figure}
+\begin{center}
+\begin{tikzpicture}[scale=.8]
+\begin{axis}[ ybar, ymajorgrids, enlargelimits=0.15, legend style={at={(0.5,-0.15)}, anchor=north,legend columns=-1},
+    width=.90\linewidth,height=10cm,
+    nodes near coords, %nodes near coords align=below,
+    ylabel={Count}, ymin=0,
+    x tick label style={rotate=45,anchor=east},
+    xtick={1,2,3,4,5,6,7,8,9,10,11,12,13},
+    xticklabels={Architecture Analysis Method,Architecture Design Method,Architecture Decision Making,Architecture Optimization Method,Reference Architecture,Architectural Aspects,Architecture Description Language,Architecture Pattern,Architecture Evolution,Architecture Description,Architecture Extraction,Technical Debt,Architectural Assumptions
+}
+    %xlabel={Research Object}    
+    ]
+  \addplot coordinates { (1,31)  (2,26)  (3,18)  (4,17)  (5,16)  (6,12)  (7,10)  (8,11)  (9,9)  (10,7)  (11,7)  (12,3)  (13,3)   };
+\end{axis}
+\end{tikzpicture}
+\end{center}
+%\caption{Histogramm f\"ur Research Object (171)}
+%\label{fig:histo_researchobject}
+%\end{figure}
+

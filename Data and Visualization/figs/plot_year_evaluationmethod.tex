@@ -1,0 +1,40 @@
+%\subsection{Plot von Year je Evaluation Method}
+%\begin{figure}
+\begin{center}
+\begin{tikzpicture}[scale=0.8]
+\
+\begin{axis}[ width=\linewidth, height=9cm,
+    cycle multi list=Spectral,
+    every axis plot/.append style={draw,mark=square},
+    %nodes near coords,nodes near coords style={color=black,font=\small},
+    enlargelimits=0.15, 
+    bar width=3.5em,
+    legend style={at={(0.5,1.45)}, anchor=north,legend columns=2},
+    legend cell align={left},
+    ylabel={Evaluation Method}, ymajorgrids,ymin=0,
+    %x tick label style={rotate=45,anchor=east},
+    xtick={1,2,3,4,5}, xticklabels={2017,2018,2019,2020,2021},
+    xlabel={Year}
+   ]
+\addplot coordinates { (1,7)  (2,13)  (3,13)  (4,13)  (5,7)  };
+\addplot coordinates { (1,9)  (2,11)  (3,7)  (4,14)  (5,9)  };
+\addplot coordinates { (1,5)  (2,4)  (3,3)  (4,0)  (5,3)  };
+\addplot coordinates { (1,2)  (2,3)  (3,2)  (4,0)  (5,4)  };
+\addplot coordinates { (1,2)  (2,2)  (3,2)  (4,1)  (5,2)  };
+\addplot coordinates { (1,2)  (2,1)  (3,2)  (4,2)  (5,1)  };
+\addplot coordinates { (1,1)  (2,3)  (3,1)  (4,0)  (5,2)  };
+\addplot coordinates { (1,2)  (2,2)  (3,0)  (4,3)  (5,0)  };
+\addplot coordinates { (1,2)  (2,0)  (3,2)  (4,3)  (5,0)  };
+\addplot coordinates { (1,1)  (2,0)  (3,3)  (4,2)  (5,0)  };
+\addplot coordinates { (1,1)  (2,0)  (3,1)  (4,2)  (5,0)  };
+\addplot coordinates { (1,1)  (2,1)  (3,1)  (4,0)  (5,0)  };
+\addplot coordinates { (1,1)  (2,0)  (3,0)  (4,0)  (5,0)  };
+
+\legend{Case Study,Technical Experiment,Motivating Example,Interview,Questionnaire,Focus Group,Data Science,Controlled Experiment,Argumentation,Grounded Theory,Benchmark,Field Experiment,Verification}
+\end{axis}
+\end{tikzpicture}
+\end{center}
+%\caption{Plot von Year je Evaluation Method}
+%\label{fig:plot_year_evaluationmethod}
+%\end{figure}
+

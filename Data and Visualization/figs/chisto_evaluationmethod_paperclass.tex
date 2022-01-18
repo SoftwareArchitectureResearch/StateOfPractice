@@ -1,0 +1,32 @@
+%\subsection{Histogram von Evaluation Method je Paper Class}
+%\begin{figure}
+\begin{center}
+\begin{tikzpicture}[scale=0.8]
+\
+\begin{axis}[ width=.99\linewidth,height=9cm, ybar stacked,
+    cycle multi list=Spectral,
+    every axis plot/.append style={draw, fill, fill opacity=0.5},
+    enlargelimits=0.15, 
+    bar width=3.5em,
+    nodes near coords, %nodes near coords align=below,
+    nodes near coords style={color=black,font=\small},
+    legend style={at={(0.5,1.35)}, anchor=north,legend columns=4},
+    legend cell align={left},
+    ylabel={Paper Class},ymajorgrids, ymin=0, 
+    %x tick label style={rotate=45,anchor=east},
+    xtick={1,2,3,4,5,6,7,8,9,10,11,12,13}, xticklabels={Technical Experiment,Case Study,Motivating Example,Interview,Focus Group,Data Science,Controlled Experiment,Questionnaire,Grounded Theory,Argumentation,Benchmark,Field Experiment,Verification},
+    xlabel={Evaluation Method}    
+   ]
+\addplot coordinates { (1,28)  (2,22)  (3,5)  (4,9)  (5,8)  (6,4)  (7,5)  (8,8)  (9,4)  (10,4)  (11,0)  (12,3)  (13,1)  };
+\addplot coordinates { (1,22)  (2,32)  (3,10)  (4,3)  (5,0)  (6,2)  (7,1)  (8,2)  (9,2)  (10,4)  (11,3)  (12,0)  (13,0)  };
+\addplot coordinates { (1,24)  (2,16)  (3,7)  (4,0)  (5,0)  (6,1)  (7,3)  (8,1)  (9,2)  (10,3)  (11,3)  (12,0)  (13,0)  };
+\addplot coordinates { (1,0)  (2,0)  (3,0)  (4,0)  (5,0)  (6,1)  (7,0)  (8,0)  (9,0)  (10,0)  (11,0)  (12,0)  (13,0)  };
+
+\legend{Evaluation Research,Proposal of Solution,Validation Research,Philosophical Papers}
+\end{axis}
+\end{tikzpicture}
+\end{center}
+%\caption{Histogram von Evaluation Method je Paper Class}
+%\label{fig:chisto_evaluationmethod_paperclass}
+%\end{figure}
+

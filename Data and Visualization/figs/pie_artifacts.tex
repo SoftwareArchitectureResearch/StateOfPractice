@@ -1,0 +1,21 @@
+%\subsection{Pie chart for Artifacts (153)}
+%\begin{figure}
+\begin{center}
+\begin{tikzpicture}[scale=2]
+\pgfmathsetcounter{pief}{0}
+\foreach \p/\q/\t/\c in {18/28/none/blue!20, 37/57/used/blue!30, 33/51/available/blue!40, 11/17/packaged/blue!50}
+  {
+    \setcounter{piee}{\value{pief}}
+    \addtocounter{pief}{\q}
+    \slice{\thepiee/153*360}
+          {\thepief/153*360}
+          {\p\%}{\t}{\c}
+  }
+\end{tikzpicture}
+
+\textbf{Pie chart for Artifacts (153)}
+\end{center}
+%\caption{Pie chart for Artifacts (153)}
+%\label{fig:pie_artifacts}
+%\end{figure}
+
