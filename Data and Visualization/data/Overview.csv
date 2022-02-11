@@ -105,7 +105,8 @@ Year|Key (DOI)|Research Object|Evaluation Method|Property
 2019|Telschig2019 (<https://doi.org/10.1109/ICSA.2019.00021>)|Architectural Aspects|Case Study|Functional Suitability,Performance efficiency
 2019|Maartensson2019 (<https://doi.org/10.1109/ICSA.2019.00022>)|Architecture Decision Making|Focus Group|Accuracy
 2019|Verdecchia2019 (<https://doi.org/10.1109/ICSA.2019.00023>)|Architecture Design Method|None|None
-2019|Wohlrab2019 (<https://doi.org/10.1109/ICSA.2019.00024>)|Architecture Evolution|Questionnaire|Effectiveness,Satisfaction,Functional Suitability
+2019|Wohlrab2019 (<https://doi.org/10.1109/ICSA.2019.00024>)|Architectural Assumptions|None|None
+| | |Architecture Evolution|Questionnaire|Effectiveness,Satisfaction,Functional Suitability
 2019|Wohlrab2019a (<https://doi.org/10.1109/ICSA.2019.00025>)|Architecture Evolution|Interview|Maintainability
 2019|Jahic2019a (<https://doi.org/10.1109/ICSA.2019.00026>)|Architecture Analysis Method|Technical Experiment|Functional Suitability
 2019|Dajsuren2019 (<https://doi.org/10.1109/ICSA.2019.00027>)|Architecture Analysis Method|Motivating Example|Functional Suitability
@@ -153,7 +154,8 @@ Year|Key (DOI)|Research Object|Evaluation Method|Property
 | | |Architecture Analysis Method|Case Study|Efficiency,Accuracy,Recovery
 2021|Shabelnyk2021 (<https://doi.org/10.1007/978-3-030-86044-8_10>)|Reference Architecture|Case Study|Satisfaction,Context coverage,Performance efficiency
 2021|Raatikainen2021 (<https://doi.org/10.1007/978-3-030-86044-8_14>)|Architectural Aspects,Architecture Decision Making|Interview|Satisfaction,Context coverage,Satisfaction
-2021|Genfer2021 (<https://doi.org/10.1007/978-3-030-86044-8_15>)|Architecture Analysis Method|Case Study|Effectiveness
+2021|Genfer2021 (<https://doi.org/10.1007/978-3-030-86044-8_15>)|Architectural Aspects|None|None
+| | |Architecture Analysis Method|Case Study|Effectiveness
 2021|Olsson2021 (<https://doi.org/10.1007/978-3-030-86044-8_16>)|Architecture Analysis Method|Technical Experiment|Accuracy
 2021|Koziolek2021 (<https://doi.org/10.1007/978-3-030-86044-8_1>)|Architecture Optimization Method|Technical Experiment|Effectiveness,Efficiency
 2021|Woods2021 (<https://doi.org/10.1007/978-3-030-86044-8_21>)|Architecture Decision Making|Questionnaire|Context coverage
@@ -167,6 +169,7 @@ Year|Key (DOI)|Research Object|Evaluation Method|Property
 2021|Cadavid2021 (<https://doi.org/10.1109/ICSA51549.2021.00010>)|Architecture Decision Making|Focus Group|Satisfaction,Freedom from Risk,Effectiveness
 | | | |Interview|Satisfaction,Effectiveness
 2021|Ntentos2021 (<https://doi.org/10.1109/ICSA51549.2021.00012>)|Architecture Analysis Method|Technical Experiment|Functional Suitability
+| | |Architecture Optimization Method|None|None
 2021|Xu2021 (<https://doi.org/10.1109/ICSA51549.2021.00013>)|Architecture Decision Making|Interview|Satisfaction,Context coverage
 2021|Knoche2021 (<https://doi.org/10.1109/ICSA51549.2021.00014>)|Architecture Evolution|Questionnaire|Satisfaction,Efficiency
 | | | |Technical Experiment|Context coverage,Performance efficiency
@@ -178,5 +181,6 @@ Year|Key (DOI)|Research Object|Evaluation Method|Property
 2021|Shokri2021 (<https://doi.org/10.1109/ICSA51549.2021.00021>)|Architectural Aspects|Technical Experiment|Performance efficiency,Functional Suitability
 | | |Architecture Analysis Method|Technical Experiment|Functional Suitability,Accuracy
 2021|Garcia2021 (<https://doi.org/10.1109/ICSA51549.2021.00022>)|Architecture Analysis Method|Case Study|Effectiveness,Usability
+| | |Architecture Extraction|None|None
 2021|Soliman2021 (<https://doi.org/10.1109/ICSA51549.2021.00023>)|Architecture Design Decisions|Case Study|Effectiveness
 2021|Sinkala2021 (<https://doi.org/10.1109/ICSA51549.2021.00024>)|Architecture Optimization Method|Case Study|Functional Suitability,Accuracy

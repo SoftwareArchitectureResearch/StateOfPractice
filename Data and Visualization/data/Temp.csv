@@ -166,16 +166,20 @@
 2019|Mayrhofer2019|10.1007/978-3-030-29983-5\_10|Reference Architecture|Argumentation|None|Portability|None
 2018|Martini2018|10.1007/978-3-030-00761-4\_21|Architecture Pattern|Questionnaire|Satisfaction,Effectiveness|None|None
 2020|Matias2020|10.1007/978-3-030-58923-3\_21|Architecture Design Method|Questionnaire|Satisfaction,Effectiveness|None|None
+2021|Garcia2021|10.1109/ICSA51549.2021.00022|Architecture Extraction|None|None|None|None
+2021|Ntentos2021|10.1109/ICSA51549.2021.00012|Architecture Optimization Method|None|None|None|None
 2021|Pinciroli2021|10.1109/ICSA51549.2021.00018|Architecture Pattern|Motivating Example|None|Performance efficiency|None
 2021|Shokri2021|10.1109/ICSA51549.2021.00021|Architecture Analysis Method|Technical Experiment|None|Functional Suitability|Accuracy
 2020|Bucaioni2020|10.1109/ICSA47634.2020.00013|Reference Architecture|Focus Group|None|Functional Suitability|None
 2020|Mendonca2020|10.1109/ICSA47634.2020.00019|Architecture Analysis Method|Technical Experiment|None|Functional Suitability|None
 2020|Zhao2020|10.1109/ICSA47634.2020.00027|Architectural Aspects|Case Study|None|Performance efficiency|None
 2019|Seifermann2019|10.1109/ICSA.2019.00009|Architecture Analysis Method|Technical Experiment|None|None|Accuracy
+2019|Wohlrab2019|10.1109/ICSA.2019.00024|Architectural Assumptions|None|None|None|None
 2019|Pigazzini2019a|10.1007/978-3-030-29983-5\_17|Architecture Analysis Method|Case Study|Effectiveness|None|None
 2019|Power2019|10.1007/978-3-030-29983-5\_4|Architecture Decision Making|Focus Group|None|Functional Suitability|None
 2020|Giaimo2020|10.1007/978-3-030-58923-3\_5|Architecture Design Method|Argumentation|None|Functional Suitability|None
 2020|Werle2020|10.1007/978-3-030-58923-3\_10|Architecture Analysis Method|Case Study|None|None|Accuracy
+2021|Genfer2021|10.1007/978-3-030-86044-8_15|Architectural Aspects|None|None|None|None
 2018|Kugele2018|10.1109/ICSA.2018.00016|Architecture Design Method|Motivating Example|Satisfaction,Effectiveness|None|None
 2017|Roy2017|10.1109/ICSA.2017.42|Reference Architecture|Motivating Example|None|Functional Suitability,Performance efficiency|None
 2017|Roy2017|10.1109/ICSA.2017.42|Reference Architecture|Argumentation|None|Usability,Security,Portability|None

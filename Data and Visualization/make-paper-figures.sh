@@ -3,19 +3,6 @@ INPUT="ECSA-ICSA-Proceedings.bib"
 DATADIR="data"
 TEMP="$DATADIR/Temp.csv";
 
-# Additional information on Paper class
-
-PAPERCLASS="$DATADIR/Unique_Paper_Class.csv";
-
-echo "$PAPERCLASS"
-
-ruby bibfilter.rb -csv --fields"year,key" --classes"Meta Data.Paper class" --sep"|" --noheading "$INPUT" > "$TEMP";
-
-echo "Year|Paper ID|Paper class" > "$PAPERCLASS";
-sort -u "$TEMP" >> "$PAPERCLASS"
-
-ruby mkpaperclass.rb
-
 # RQ 1: What is the distribution of research objects and their evaluation, and how did their proportions change over time?
 
 # 1.1.	What is the proportion of research objects in the body of literature per year?
@@ -63,19 +50,6 @@ awk -F"|" '{rep=""; if($5=="Yes"){ rep="packaged"; }else{ if ($3=="available" ||
 
 ruby mkartifactevaluation.rb
 
-
-# Additional information on Threats to Validity
-
-THREATSTOVALIDITY="$DATADIR/Unique_Threats_to_Validity.csv";
-
-echo "$THREATSTOVALIDITY"
-
-ruby bibfilter.rb -csv --fields"year,key" --classes"Validity.Threats To Validity" --sep"|" --noheading "$INPUT" > "$TEMP";
-
-echo "Year|Paper ID|Threats To Validity" > "$THREATSTOVALIDITY";
-sort -u "$TEMP" >> "$THREATSTOVALIDITY"
-
-ruby mkthreatstovalidity.rb
 
 # RQ 2: How are specific research objects evaluated, and how accessible are their evaluation artifacts?
 
@@ -141,7 +115,6 @@ awk -F"|" '{s[0]=$4; s[1]=$5; s[2]=$6; s[3]=$7; result=sep=""; for (i in s){ if 
 
 ruby mkthreatsperevaluation.rb
 
-
 # RQ 2.6 What is the relationship between the evaluation method and the provision of replication artifacts?
 
 AE_EVALUATION="$DATADIR/Evaluation_Method_to_Replication_Package.csv";
@@ -155,43 +128,11 @@ awk -F"|" -f "replicationevaluation.awk" "$TEMP" | sort -u >> "$AE_EVALUATION"
 
 ruby mkreplicationperevaluation.rb
 
-
-# Addendum: How many papers reference evaluation guidelines or guidelines for threats to validity
-
-#GUIDELINES="$DATADIR/Guidelines.csv"
-
-#echo "$GUIDELINES"
-
-#ruby bibfilter.rb -csv --fields"year,key" --classes"Validity.Referenced Threats To Validity Guideline,First Research Object.First Evaluation.Referenced Evaluation Guideline,First Research Object.Second Evaluation.Referenced Evaluation Guideline,Second Research Object.First Evaluation.Referenced Evaluation Guideline,Second Research Object.Second Evaluation.Referenced Evaluation Guideline" --sep"|" --noheading "$INPUT" > "$TEMP";
-
-#ruby mkguidelines.rb  
-
-# Generate Overview Tables
-
-OVERVIEW="$DATADIR/Overview.csv";
-
-echo "$OVERVIEW"
-
-ruby bibfilter.rb -csv --fields"year,key,doi" --classes"First Research Object.Research Object,First Research Object.First Evaluation.Evaluation Method,First Research Object.First Evaluation.Properties.Quality in Use,First Research Object.First Evaluation.Properties.Product Quality,First Research Object.First Evaluation.Properties.Quality of Method" --sep"|" --noheading "$INPUT" > "$TEMP";
-ruby bibfilter.rb -i"/First Research Object.*Second Evaluation/" -csv --fields"year,key,doi" --classes"First Research Object.Research Object,First Research Object.Second Evaluation.Evaluation Method,First Research Object.Second Evaluation.Properties.Quality in Use,First Research Object.Second Evaluation.Properties.Product Quality,First Research Object.Second Evaluation.Properties.Quality of Method" --sep"|" --noheading "$INPUT" >> "$TEMP";
-ruby bibfilter.rb -i"/Second Research Object.*First Evaluation/" -csv --fields"year,key,doi" --classes"Second Research Object.Research Object,Second Research Object.First Evaluation.Evaluation Method,Second Research Object.First Evaluation.Properties.Quality in Use,Second Research Object.First Evaluation.Properties.Product Quality,Second Research Object.First Evaluation.Properties.Quality of Method" --sep"|" --noheading "$INPUT" >> "$TEMP";
-ruby bibfilter.rb -i"/Second Research Object.*Second Evaluation/" -csv --fields"year,key,doi" --classes"Second Research Object.Research Object,Second Research Object.Second Evaluation.Evaluation Method,Second Research Object.Second Evaluation.Properties.Quality in Use,Second Research Object.Second Evaluation.Properties.Product Quality,Second Research Object.Second Evaluation.Properties.Quality of Method" --sep"|" --noheading "$INPUT" >> "$TEMP";
-
-echo "Year|Key (DOI)|Research Object|Evaluation Method|Property" > "$OVERVIEW";
-awk -F"|" '{s[0]=$6; s[1]=$7; s[2]=$8; result=sep=""; for (i in s){ if (s[i]!="None"){ result=result sep s[i]; sep=","; } } if(result=="") a[$2"|"$4"|"$5]="None"; else a[$2"|"$4"|"$5]=result; b[$2"|"$4"|"$5]=$1; c[$2"|"$4"|"$5]=$3}END{for (i in a) print b[i]"|"c[i]"|"i"|"a[i];}' "$TEMP" | sort -u | awk -F"|" '{if(a!=$3){as=0;a=$3;b="";}else{as++;}if(b!=$4){bs=0;b=$4;}else{bs++;} print (as?"| | ":$1"|"$3" (<https://doi.org/"$2">)")"|"(bs?" ":$4)"|"$5"|"$6;}' - >> "$OVERVIEW"
-
-
-META_DATA="$DATADIR/Meta_Data.csv";
-
-echo "$META_DATA"
-
-echo "Year|Key (DOI)|Paper class|Tool Support|Input Data|Replication Package|Threats To Validity" > "$META_DATA";
-ruby bibfilter.rb -csv --fields"year,doi,key" --classes"Meta Data.Paper class,Validity.Tool Support,Validity.Input Data,Validity.Replication Package,Validity.Threats To Validity" --sep"|" --noheading "$INPUT" | sort -u | awk -F"|" '{print $1"|"$3" (<https://doi.org/"$2">)|"$4"|"$5"|"$6"|"$7"|"$8;}' - >> "$META_DATA"
-
 # evaluation guidelines pro paper
 
 echo "Compile latex..."
 
-latexmk -pdf summary
+# create the figures shown in the paper
+latexmk -pdf paper-figures
 
-exit #continue here
+exit 

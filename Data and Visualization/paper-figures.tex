@@ -1,0 +1,104 @@
+\documentclass[a4paper, 11pt, twoside=semi]{scrartcl}
+
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+
+\usepackage{enumerate}
+
+% Deutsche Silbentrennung
+%\usepackage[ngerman]{babel}
+
+% Typische Mathesymbole etc, was man oft braucht
+\usepackage{textcomp}
+\usepackage{latexsym}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{wasysym}
+%\usepackage{txfonts}
+
+% Teilfiguren in figure Umgebungen erlauben%
+\usepackage{subfig}
+\usepackage{float}
+\restylefloat{figure}
+
+% Schrift die mit Zeichencodierung klar kommt
+%\usepackage{lmodern}
+
+
+
+
+% Bilder einfügen
+\usepackage{graphicx}
+% Quelltext einfügen
+\usepackage{verbatim}
+%allows multiple rows and colums in a tabular environment
+\usepackage{array}
+%\usepackage{multirow}
+\usepackage{multicol}
+
+
+% Definitionen von Farben
+\usepackage{xcolor}
+
+% Einf\"ugen von Tikz grafiken
+\usepackage{booktabs}
+\usepackage{pgf}
+\usepackage{tikz}
+\usetikzlibrary{shapes,backgrounds,mindmap,trees,calc}
+
+\usepackage{pgfplots}
+%\usepackage{pgfplotstable}
+%\usepgfplotslibrary{colormaps}
+%\usepgfplotslibrary{colorbrewer}
+\usetikzlibrary{pgfplots.colorbrewer}
+\pgfplotsset{compat=1.15} %
+\pgfplotsset{cycle list/PiYG}
+\pgfplotsset{cycle list/Spectral}
+\pgfplotsset{cycle list/Greys}
+
+\author{Thomas Kühn}
+\title{Evaluation Methods and Replicability of Software
+Architecture Research Objects}
+\subtitle{Generated Figures Shown in the Paper}
+
+\begin{document}
+
+\maketitle
+
+\section{Number of research objects from 2017 to 2021}
+
+\input{figs/port_year_researchobject}
+
+\section{Number of evaluation methods (per research object) from 2017 to 2021}
+
+\input{figs/port_year_evaluationmethod}
+
+\section{Number of publications featuring a replication package (packaged), providing links to available tools or input data (available), employed tools or input data (used), or none of the above (none) from 2017 to 2021}
+
+\input{figs/chisto_year_artifacts}
+
+\section{Relations between research objects of publications and properties investigated for evaluation}
+
+\input{figs/port_property_researchobject}
+
+\section{Relations between research objects of publications and evaluation methods applied}
+
+\input{figs/port_evaluationmethod_researchobject}
+
+\section{Relations between evaluation methods (per research object) and evaluated property}
+
+\input{figs/port_property_evaluationmethod}
+
+\section{Relations between evaluation methods (per research object) and considered threats to validity (per paper)}
+
+\input{figs/port_threatstovalidity_evaluationmethod}
+
+\section{Relations between evaluation methods (per research object) and kind of provided artifact (per paper)}
+
+\input{figs/port_artifacts_evaluationmethod}
+
+%\bibliographystyle{unsrt}
+%\bibliography{ECSA-ICSA-Proceedings}
+
+\end{document}
+
