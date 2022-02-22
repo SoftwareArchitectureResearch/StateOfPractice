@@ -1,3 +1,9 @@
+This is the collaboration space for the replication package of the following paper:
+
+> Marco Konersmann, Angelika Kaplan, Thomas Kühn, Robert Heinrich, Anne Koziolek, Ralf Reussner andJan Jürjens, Mahmood al Door, Nicolas Boltz, Marco Ehl, Dominik Fuch, Katharina Großer, Sebastian Hahner, Jan Keim, Matthias Lohr, Timur Sağlam, Sophie Schulz, and Jan-Philipp Töberg. Evaluation Methods and Replicability of Software Architecture Research Objects. In Proceedings of the 19th IEEE International Conference on Software Architecture (ICSA 2022), Hawaii, USA (virtual). IEEE, May 2022. Accepted for publication. 
+
+The replication package is archived at https://zenodo.org/record/6044059
+
 # Content
 In this package, please find the  following content:
 
